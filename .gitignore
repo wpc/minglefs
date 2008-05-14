@@ -3,3 +3,4 @@ mnt
 tmtags
 .DS_Store
 coverage
+*.persistence
