@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+$:.unshift File.dirname(__FILE__) + '/../lib'
+require 'mingle_fs'
+
+MingleFs.start if File.basename($0) == File.basename(__FILE__)
